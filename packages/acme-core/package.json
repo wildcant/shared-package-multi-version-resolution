@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "@acme/tsconfig": "*",
-    "eslint": "^7.32.0",
-    "eslint-config-acme": "*",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-acme": "*",
     "react": "^17.0.2",
     "tsup": "^5.10.1",
     "typescript": "^4.5.3"
