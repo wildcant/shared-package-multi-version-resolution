@@ -1,5 +1,5 @@
 {
-  "name": "@acme/core",
+  "name": "@acme-wct/core",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@acme/tsconfig": "*",
+    "@acme-wct/tsconfig": "*",
     "eslint": "^7.32.0",
     "eslint-config-acme": "*",
     "tsup": "^5.10.1",

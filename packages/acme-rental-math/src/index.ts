@@ -1,5 +1,5 @@
 export function computeRentalMath() {
   return {
-    dayRate: 0,
+    dayRate: 1,
   }
 }

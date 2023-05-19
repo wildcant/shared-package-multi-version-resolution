@@ -1,5 +1,5 @@
 import express from 'express'
-import {sum} from '@acme/core'
+import {sum} from '@acme-wct/core'
 
 express()
   .get('/', (_, res) => res.send('OK'))

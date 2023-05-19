@@ -4,8 +4,8 @@
   "commit": false,
   "fixed": [],
   "linked": [],
-  "access": "restricted",
+  "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["be", "@acme/core", "@acme/utils", "eslint-config-acme"]
+  "ignore": ["be", "@acme-wct/core", "@acme-wct/utils", "eslint-config-acme"]
 }

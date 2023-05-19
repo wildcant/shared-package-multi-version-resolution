@@ -6,7 +6,7 @@
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "turbo build --filter=docs^... && changeset publish"
+    "release:rental-math": "turbo build --filter=@acme-wct/rental-math && yarn workspace @acme-wct/rental-math publish"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

@@ -5,11 +5,11 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@acme/core@*, @acme/core@workspace:packages/acme-core":
+"@acme-wct/core@*, @acme-wct/core@workspace:packages/acme-core":
   version: 0.0.0-use.local
-  resolution: "@acme/core@workspace:packages/acme-core"
+  resolution: "@acme-wct/core@workspace:packages/acme-core"
   dependencies:
-    "@acme/tsconfig": "*"
+    "@acme-wct/tsconfig": "*"
     eslint: ^7.32.0
     eslint-config-acme: "*"
     tsup: ^5.10.1
@@ -17,11 +17,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/rental-math@workspace:packages/acme-rental-math":
+"@acme-wct/rental-math@workspace:packages/acme-rental-math":
   version: 0.0.0-use.local
-  resolution: "@acme/rental-math@workspace:packages/acme-rental-math"
+  resolution: "@acme-wct/rental-math@workspace:packages/acme-rental-math"
   dependencies:
-    "@acme/tsconfig": "*"
+    "@acme-wct/tsconfig": "*"
     "@changesets/cli": ^2.26.1
     build: ^0.1.4
     tsup: ^6.7.0
@@ -29,17 +29,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@acme/tsconfig@*, @acme/tsconfig@workspace:packages/acme-tsconfig":
+"@acme-wct/tsconfig@*, @acme-wct/tsconfig@workspace:packages/acme-tsconfig":
   version: 0.0.0-use.local
-  resolution: "@acme/tsconfig@workspace:packages/acme-tsconfig"
+  resolution: "@acme-wct/tsconfig@workspace:packages/acme-tsconfig"
   languageName: unknown
   linkType: soft
 
-"@acme/utils@workspace:packages/acme-utils":
+"@acme-wct/utils@workspace:packages/acme-utils":
   version: 0.0.0-use.local
-  resolution: "@acme/utils@workspace:packages/acme-utils"
+  resolution: "@acme-wct/utils@workspace:packages/acme-utils"
   dependencies:
-    "@acme/tsconfig": "*"
+    "@acme-wct/tsconfig": "*"
     "@types/react": ^18.2.0
     "@types/react-dom": ^18.2.0
     eslint: ^7.32.0
@@ -1295,7 +1295,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "be@workspace:apps/be"
   dependencies:
-    "@acme/core": "*"
+    "@acme-wct/core": "*"
     "@types/express": ^4.17.17
     "@types/node": ^20.2.1
     express: ^4.18.2

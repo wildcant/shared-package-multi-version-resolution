@@ -11,7 +11,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@acme/core": "*",
+    "@acme-wct/core": "*",
     "express": "^4.18.2"
   }
 }
