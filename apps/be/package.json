@@ -1,0 +1,17 @@
+{
+  "name": "be",
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "dev": "tsx watch src/app"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@acme/core": "*",
+    "express": "^4.18.2"
+  }
+}

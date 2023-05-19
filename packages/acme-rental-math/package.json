@@ -1,0 +1,23 @@
+{
+  "name": "@acme/rental-math",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.5.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "*",
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
+  }
+}
