@@ -7,14 +7,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "publish": "changeset publish"
+    "lint": "tsc"
   },
   "devDependencies": {
     "@acme-wct/tsconfig": "*",
-    "@changesets/cli": "^2.26.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   },

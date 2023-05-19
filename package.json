@@ -6,9 +6,12 @@
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release:rental-math": "turbo build --filter=@acme-wct/rental-math && yarn workspace @acme-wct/rental-math publish"
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo build --filter=@acme-wct/rental-math && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.22.0",
     "eslint": "^7.32.0",
     "eslint-config-acme": "*",
     "prettier": "^2.5.1",
